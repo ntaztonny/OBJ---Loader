@@ -62,7 +62,7 @@ void Model::drawObject(bool transparency)
 				  glMaterialfv(GL_FRONT_AND_BACK, GL_AMBIENT, material->ka);
 				  glMaterialfv(GL_FRONT_AND_BACK, GL_DIFFUSE, material->kd);
 				  glMaterialfv(GL_FRONT_AND_BACK, GL_SPECULAR, material->ks);
-			      glMaterialfv(GL_FRONT_AND_BACK, GL_EMISSION, material->ke);
+			          glMaterialfv(GL_FRONT_AND_BACK, GL_EMISSION, material->ke);
 				  glMaterialf(GL_FRONT_AND_BACK, GL_SHININESS, material->shininess);
 
 				  if (material ->diffuseMap != NULL)
